@@ -1,0 +1,32 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+}
+
+body {
+    padding-bottom: 60px; /* 留出空間給footer */
+}
+
+.carousel-caption {
+    color: blue; /* 設置文字顏色為藍色 */
+    font-weight: bold; /* 設置文字為粗體 */
+    background-color: white; /* 設置背景顏色為白色 */
+    padding: 10px; /* 添加內邊距 */
+    border-radius: 5px; /* 可選：圓角邊框 */
+}
+
+/* 確保圖片完全響應式滿版 */
+.carousel-item img {
+    width: 100%; /* 設定寬度為100% */
+    height: 100%; /* 設定高度為100% */
+    object-fit: cover; /* 使圖片保持比例並填滿容器 */
+}
+
+/* 確保輪播項目具有最小高度 */
+.carousel-item {
+    min-height: 60vh; /* 設定最小高度為視口高度的60% */
+}

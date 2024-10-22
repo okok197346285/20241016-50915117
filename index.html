@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>我的網站</title>
+</head>
+<body>
+
+<!-- 導航欄 -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">我的網站</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#home">首頁</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">關於我</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolio">作品集</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">聯繫我</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- 首頁 -->
+<section id="home" class="container mt-5">
+    <h2>首頁</h2>
+    <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="https://www.youtube.com/watch?v=_WL2OATTlvE" target="_blank">
+                    <img src="極簡幻象.jpg" class="d-block w-100" alt="極簡幻象">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>極簡讚</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="https://www.youtube.com/watch?v=gdgUk74XaoA&t=2s" target="_blank">
+                    <img src="極簡惡靈.jpg" class="d-block w-100" alt="極簡惡靈">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>極簡棒</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="https://www.youtube.com/watch?v=vPcFfWPVkS8&t=2s" target="_blank">
+                    <img src="極簡神射.jpg" class="d-block w-100" alt="極簡神射">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>極簡好</h5>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
+<!-- 關於我 -->
+<section id="about" class="container mt-5">
+    <h2>關於我</h2>
+    <p>50915117 黃靖棠 不知道要打什麼</p>
+</section>
+
+<!-- 作品集 -->
+<section id="portfolio" class="container mt-5">
+    <h2>我的作品集</h2>
+    <ul>
+        <li><a href="https://okok197346285.github.io/0918-50915117/" target="_blank">作業1</a></li>
+        <li><a href="https://okok197346285.github.io/0925-50915117/" target="_blank">作業2</a></li>
+    </ul>
+</section>
+
+<!-- 聯繫我 -->
+<section id="contact" class="container mt-5">
+    <h2>聯繫我</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">姓名</label>
+            <input type="text" class="form-control" id="name" placeholder="輸入姓名" required>
+        </div>
+        <div class="form-group">
+            <label for="email">電子郵件</label>
+            <input type="email" class="form-control" id="email" placeholder="輸入電子郵件" required>
+        </div>
+        <div class="form-group">
+            <label for="message">訊息</label>
+            <textarea class="form-control" id="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">提交</button>
+    </form>
+</section>
+
+<!-- 頁尾 -->
+<footer>
+    <p>© 2024 我的網站. 版權所有.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
